@@ -38,3 +38,12 @@ header h1 {
     min-height: 300px;
     border-radius: 30px;
 }
+
+.card h2, h3, h4, h5, h6 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#penelope-list {
+    list-style-type: none;
+}
