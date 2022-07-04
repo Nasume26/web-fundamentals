@@ -1,35 +1,32 @@
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: black;
-    color: white
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header {
+    justify-content: space-between;
 }
 
 #Nology {
     background-color: green;
-    font-family: 'Vollkorn', serif;
+    font-size: 0.5em;
+    height: 30px;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    color: white;
+    padding: 50px;
     
-}
-
-li, #ptext {
-    font-size: 0.8em;
-    color: gray;
-}
-
-.panel, #rpanel {
-    border: 3px solid black;
-}
-
-.headl {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-
-}
-
-#Nology {
-    align-self: 
 }
