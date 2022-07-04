@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+/*Header Tags that I don't quite understand*/
 header, header *{
     display: flex;
     justify-content: center;
