@@ -29,8 +29,29 @@ nav a {
 }
 
 
-main * {
+main {
+    height: 500px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+}
+
+main h2, h3, a {
+    padding: 10px;
+}
+
+main h2 {
+    color: rgb(23, 107, 211);
+    text-decoration: bold;
+    font-size: 200%;
+}
+
+main a {
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
 }
