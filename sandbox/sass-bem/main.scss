@@ -1,3 +1,36 @@
 * {
-    background-color: red;
+    background-color: white;
+    margin: 0;
+}
+
+nav, nav * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: midnightblue;
+    height: 50px;
+}
+
+nav {
+    justify-content: space-between;
+    padding: 5px;
+}
+
+nav h1 {
+    color: white;
+}
+
+nav a {
+    background-color: orange;
+    padding: 1px;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+main * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
