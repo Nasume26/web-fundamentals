@@ -1,14 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Francois+One&display=swap');
 
+$primary-font: 'baloo 2', cursive;
 $primary-color: rgb(25, 25, 88);
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'baloo 2', cursive;
+    font-family: $primary-font;
 }
 
-nav h1 {
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px;
+    h1 {
     font-family: 'Francois One', sans-serif;
+    color: $primary-color;
+    font-size: 4em;
   }
+  h1::before{
+    content:url(images/penguin1.svg);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+nav * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login {
+    border: 2px solid $primary-color;
+    border-radius: 5px;
+    padding: 15px 30px;
+}

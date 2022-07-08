@@ -6,6 +6,37 @@
   font-family: "baloo 2", cursive;
 }
 
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 25px;
+}
 nav h1 {
   font-family: "Francois One", sans-serif;
+  color: #191958;
+  font-size: 4em;
+}
+nav h1::before {
+  content: url(images/penguin1.svg);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login {
+  border: 2px solid #191958;
+  border-radius: 5px;
+  padding: 15px 30px;
 }
