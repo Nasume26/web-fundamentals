@@ -92,6 +92,7 @@ main #button-2 a {
 .find-d {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: 15px;
 }
 
