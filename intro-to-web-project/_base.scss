@@ -1,0 +1,17 @@
+
+$primary-font: 'baloo 2', cursive;
+$primary-color: rgb(25, 25, 88);
+$secondary-color: rgb(50, 186, 231);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $primary-font;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+    font-family: $primary-font;
+}

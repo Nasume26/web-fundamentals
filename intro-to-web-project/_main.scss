@@ -1,0 +1,66 @@
+
+main {
+
+    #t-line {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        a {
+            padding: 15px 50px;
+        }
+    }
+    #t-line * {
+        padding: 25px;
+    }
+
+    h2 {
+        color: $secondary-color;
+        font-size: 3em;
+        font-weight: bolder;
+
+    }
+
+    #s-blue {
+        font-size: 2em;
+        padding: 10px;
+    }
+
+    h3 {
+        color: $primary-color;
+        font-size: 2.2em;
+        font-weight: bolder;
+    }
+
+    p {
+        color: $primary-color;
+        font-size: 1.3em;
+    }
+
+    #button-2 {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        a {
+            padding: 10px 50px;
+        }
+    }
+
+}
+
+#here-find {
+    margin: 25px;
+}
+
+.find-d {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.find-start {
+    font-weight: bolder;
+    font-size: 1.2em;
+}

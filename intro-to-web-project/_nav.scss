@@ -1,0 +1,33 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px;
+    h1 {
+    font-family: 'Francois One', sans-serif;
+    color: $primary-color;
+    font-size: 4em;
+  }
+  h1::before{
+    content:url(images/penguin1.svg);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+nav * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login {
+    border: 2px solid $primary-color;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: $primary-color;
+}
