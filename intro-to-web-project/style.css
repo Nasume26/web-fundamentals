@@ -77,6 +77,21 @@ main p {
   font-size: 1.3em;
 }
 
+#here-find {
+  margin: 25px;
+}
+
+.find-d {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.find-start {
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
 .button {
   background-color: #191958;
   border-radius: 8px;
