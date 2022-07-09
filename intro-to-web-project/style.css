@@ -95,6 +95,11 @@ main #button-2 a {
   justify-content: center;
   margin: 15px;
 }
+.find-d #find-it {
+  font-style: italic;
+  font-size: 0.9em;
+  font-weight: lighter;
+}
 
 .find-start {
   font-weight: bolder;
