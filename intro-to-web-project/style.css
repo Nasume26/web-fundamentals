@@ -105,3 +105,20 @@ main #button-2 a {
   border-radius: 8px;
   font-weight: bolder;
 }
+
+footer {
+  background-color: #e0e7ba;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #191958;
+}
+footer a:link, footer a:visited {
+  color: #191958;
+}
+
+footer * {
+  padding: 20px;
+}
