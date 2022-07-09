@@ -2,6 +2,7 @@
 
 $primary-font: 'baloo 2', cursive;
 $primary-color: rgb(25, 25, 88);
+$secondary-color: rgb(50, 186, 231);
 
 * {
     margin: 0;
@@ -12,7 +13,8 @@ $primary-color: rgb(25, 25, 88);
 
 a:link, a:visited {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-family: $primary-font;
 }
 
 nav {
@@ -42,5 +44,57 @@ nav * {
 #login {
     border: 2px solid $primary-color;
     border-radius: 5px;
-    padding: 15px 30px;
+    padding: 10px 30px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: $primary-color;
+}
+
+main {
+
+    #t-line {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        a {
+            padding: 15px 50px;
+        }
+    }
+    #t-line * {
+        padding: 25px;
+    }
+
+    h2 {
+        color: $secondary-color;
+        font-size: 3em;
+        font-weight: bolder;
+
+    }
+
+    #s-blue {
+        font-size: 2em;
+        padding: 10px;
+    }
+
+    h3 {
+        color: $primary-color;
+        font-size: 2.2em;
+        font-weight: bolder;
+    }
+
+    p {
+        color: $primary-color;
+        font-size: 1.3em;
+    }
+
+
+}
+
+.button {
+    background-color: $primary-color;
+    border-radius: 8px;
+    font-weight: bolder;
 }

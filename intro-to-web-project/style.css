@@ -8,7 +8,8 @@
 
 a:link, a:visited {
   text-decoration: none;
-  color: black;
+  color: white;
+  font-family: "baloo 2", cursive;
 }
 
 nav {
@@ -38,5 +39,46 @@ nav * {
 #login {
   border: 2px solid #191958;
   border-radius: 5px;
-  padding: 15px 30px;
+  padding: 10px 30px;
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #191958;
+}
+
+main #t-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main #t-line a {
+  padding: 15px 50px;
+}
+main #t-line * {
+  padding: 25px;
+}
+main h2 {
+  color: #32bae7;
+  font-size: 3em;
+  font-weight: bolder;
+}
+main #s-blue {
+  font-size: 2em;
+  padding: 10px;
+}
+main h3 {
+  color: #191958;
+  font-size: 2.2em;
+  font-weight: bolder;
+}
+main p {
+  color: #191958;
+  font-size: 1.3em;
+}
+
+.button {
+  background-color: #191958;
+  border-radius: 8px;
+  font-weight: bolder;
 }
