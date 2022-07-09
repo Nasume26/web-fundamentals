@@ -90,6 +90,15 @@ main {
         font-size: 1.3em;
     }
 
+    #button-2 {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        a {
+            padding: 10px 50px;
+        }
+    }
+
 }
 
 #here-find {

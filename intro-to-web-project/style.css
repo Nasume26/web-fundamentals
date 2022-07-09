@@ -76,6 +76,14 @@ main p {
   color: #191958;
   font-size: 1.3em;
 }
+main #button-2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+main #button-2 a {
+  padding: 10px 50px;
+}
 
 #here-find {
   margin: 25px;
